@@ -19,6 +19,8 @@ We experimented with multiple models:
 
 - Ordinal Classifier (custom model for ordered labels)
 
+- ELMo (contextual embeddings via TensorFlow Hub)
+
 - Word Embeddings (using GloVe and Word2Vec)
 
 # Files
@@ -29,5 +31,7 @@ We experimented with multiple models:
 - BERTAP3.ipynb: BERT fine-tuning notebook
 
 - WordEmbeddingsAP3.ipynb: Word embedding models
+
+- ElmoAP3.ipynb: ELMo implementation
 
 - AP3 Analysis.pdf: Model results & reflections
